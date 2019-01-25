@@ -36,7 +36,13 @@ source ~/.bashrc
 ```bash
 mkdir TWRP-build-env-8.1
 repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-8.1
-repo init --depth=1 -u git://github.com/sieger82/My_TWRP_Builds.git -b twrp-8.1
+repo sync
+
+#link local manifests.
+#in .repo dir do:
+ln -s <path_to_dir_with_local_manifests> local_manifests
+
+#then again
 repo sync
 ```
 
