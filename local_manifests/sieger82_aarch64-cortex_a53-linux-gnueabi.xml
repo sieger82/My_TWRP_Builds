@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-cortex_a53-linux-gnueabi" name="sieger82/aarch64-cortex_a53-linux-gnueabi" remote="github" revision="master" clone-depth="1" />
+</manifest>
